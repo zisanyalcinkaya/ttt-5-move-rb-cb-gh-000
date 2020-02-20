@@ -12,4 +12,4 @@ def update_array_at_with(array, index, value)
   array[index.to_i-1] = value
 end
 
-update_array_at_with(board, 0, "X")
+#update_array_at_with(board, 0, "X")
