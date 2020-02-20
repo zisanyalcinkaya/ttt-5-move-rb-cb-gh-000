@@ -5,4 +5,4 @@ require_relative '../lib/move.rb'
 # Code your CLI Here
 index= gets.strip
 
-update_array_at_with(board, (index.to_i)-1, "X")
+update_array_at_with(board, index, "X")
