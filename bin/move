@@ -6,5 +6,5 @@ require_relative '../lib/move.rb'
 board = [" ", " ", " "," ", " ", " "," ", " ", " "]
 index= gets.strip
 
-update_array_at_with(board, index, "X")
+move(board, index, "X")
 display_board(board)
